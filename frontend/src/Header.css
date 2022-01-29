@@ -1,0 +1,12 @@
+.banner {
+    margin: 0;
+    width: 100%;
+    padding: 20px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right, #1b1c32, #0f5285, #0d5283);
+}
+.banner h1 {
+    margin: 0;
+}
