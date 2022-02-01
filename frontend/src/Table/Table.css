@@ -1,0 +1,42 @@
+.table-container {
+    flex-grow: 4;
+    height: 100%;
+}
+
+table {
+    text-align: start;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e2ebf6;
+}
+
+td:nth-last-child(1), td:nth-last-child(2){
+    border: none;
+}
+
+th {
+    padding:8px;
+    background-color:rgb(225, 225, 225);
+}
+
+
+td {
+    border: 1px solid grey;
+    padding-left:8px;
+}
+
+.details-btn, .trash-btn {
+    border-radius:20px;
+    border:none;
+    background-color: #c1d1e2;
+    cursor: pointer;   
+}
+
+.details-btn p, .trash-btn p {
+    display:inline-block;
+    padding: 0px 25px;
+    color: #4080d2;
+    font-weight: 600;
+}

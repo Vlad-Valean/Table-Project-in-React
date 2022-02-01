@@ -1,0 +1,13 @@
+.content-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+}
+
+@media  screen and (max-width: 900px) {
+    .content-container {
+        flex-direction: column;
+    }
+}
+
