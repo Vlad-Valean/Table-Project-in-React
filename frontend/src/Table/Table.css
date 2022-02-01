@@ -40,3 +40,74 @@ td {
     color: #4080d2;
     font-weight: 600;
 }
+
+.h-text {
+    color: #000000;
+    margin-right: 15px;
+    font-weight: 900;
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .h-text {
+        display: inline-block;
+    }
+
+    .button-text {
+        display: none;
+    }
+
+    .details-btn, .trash-btn {
+        background-color: transparent;
+    }        
+
+    .fa-pen::before, .fa-trash::before {
+        background-color: rgb(225, 225, 225);
+    }
+
+    table {
+        display: flex;
+        flex-direction: column;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        position: relative;
+        display:block;
+        margin:15px auto;
+        flex-grow: 1;
+        width:95%;
+        padding:10px;
+        border: 1px solid #4080d2;
+        border-radius: 10px;
+    }
+    
+    td {
+        display: block;
+        border: none;
+    }
+
+    td:nth-last-child(1), td:nth-last-child(2) {
+        position:absolute;
+        top:5px;
+    }
+
+    td:nth-last-child(1) {
+        padding:0px;
+        right:5px;
+    }
+
+    td:nth-last-child(2) {
+        right:45px;
+    }
+
+}
+
+@media  screen and (max-width: 600px) {
+    .h-text {
+        display: none;
+    }
+}
