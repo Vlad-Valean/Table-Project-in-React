@@ -46,6 +46,8 @@ td {
     margin-right: 15px;
     font-weight: 900;
     display: none;
+    text-align: end;
+    width:120px;
 }
 
 @media screen and (max-width: 900px) {

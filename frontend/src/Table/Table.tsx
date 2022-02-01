@@ -33,8 +33,8 @@ function Table() {
         const TableRow = (props:props) => {
             return(           
                 <tr>
-                    <td><span className='h-text'>Product: </span>{ props.product }</td>
-                    <td><span className='h-text'>Code: </span>{ props.code }</td>
+                    <td><span className='h-text'>Product Name: </span>{ props.product }</td>
+                    <td><span className='h-text'>Product Code: </span>{ props.code }</td>
                     <td><span className='h-text'>Available: </span>{ props.available }</td>
                     <td><span className='h-text'>Price: </span>${ props.price }</td>
                     <td><span className='h-text'>Rating: </span>{ props.rating }</td>
