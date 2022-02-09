@@ -1,9 +1,14 @@
 .content-container {
     display: flex;
     flex-direction: row;
-    flex-grow: 1;
     flex-wrap: nowrap;
+    width:100% !important;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 @media  screen and (max-width: 900px) {
     .content-container {

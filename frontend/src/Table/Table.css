@@ -31,7 +31,12 @@ td {
     border-radius:20px;
     border:none;
     background-color: #c1d1e2;
-    cursor: pointer;   
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .details-btn p, .trash-btn p {
@@ -50,6 +55,24 @@ td {
     width:120px;
 }
 
+.fa-pen::before{
+    color: #4080d2;
+    content: '\f303';
+    display: inline-block;
+    background-color: #fff;
+    padding:9px;
+    border-radius:50%;
+}
+
+.fa-trash::before {
+    color: #4080d2;
+    content: '\f1f8';
+    display: inline-block;
+    background: #fff;
+    padding:9px;
+    border-radius:50%;
+}
+
 @media screen and (max-width: 900px) {
     .h-text {
         display: inline-block;
@@ -61,7 +84,11 @@ td {
 
     .details-btn, .trash-btn {
         background-color: transparent;
-    }        
+    }
+
+    .details-btn p, .trash-btn p {
+        display: none;
+    }
 
     .fa-pen::before, .fa-trash::before {
         background-color: rgb(225, 225, 225);

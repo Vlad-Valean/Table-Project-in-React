@@ -25,21 +25,17 @@
 }
 
 .menu-btn {
-    width: 25px;
-    height: 25px;
-    background-color: transparent;
-    border: none;
-    margin: 5px;
-}
+    color: #4080d2;
+    width:25px;
+    height:25px;
+    margin:6px;
+    border:none;
+    background:transparent;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: ease;
 
-.rotate{ 
-    transition: all 0.5s ease;
-    transform: rotate(90deg);
-}
-
-.unrotate{ 
-    transition: all 0.5s ease;
-    transform: rotate(0deg);
 }
 
 .fa {
@@ -49,21 +45,26 @@
 
 .fa-bars::before {
     content: '\f0c9';
+    font-size: 18px;
 }
 
 .fa-user::before {
     content: '\f007';
+    font-size: 18px;
+    margin-left: 3px;
 }
 
 .fa-buy::before {
     content: '\f07a';
+    font-size: 18px;
 }
 
 .generic-btn {
-    margin: 10px;
-    text-decoration: none;
+    color: #4080d2;
+    margin:9px;
 }
 
 .generic-btn span {
+    color: #4080d2;
     margin-left: 10px;
 }
